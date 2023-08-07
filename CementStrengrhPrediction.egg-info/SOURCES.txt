@@ -2,6 +2,7 @@ setup.py
 CementStrengrhPrediction.egg-info/PKG-INFO
 CementStrengrhPrediction.egg-info/SOURCES.txt
 CementStrengrhPrediction.egg-info/dependency_links.txt
+CementStrengrhPrediction.egg-info/requires.txt
 CementStrengrhPrediction.egg-info/top_level.txt
 src/__init__.py
 src/exception.py
