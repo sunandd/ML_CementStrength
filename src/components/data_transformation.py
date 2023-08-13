@@ -42,9 +42,10 @@ class DataTransformation:
 
     
     def get_data_transformer_object(self):
+        replace_duplicate = replace_duplicates_with_mean()
         try:
             #define the step for  the preprocessor pipeline
-            duplicate_replacement_step = ('duplicate_replacement', FunctionTransformer(replace_duplicates_with_mean))
+            duplicate_replacement_step = ('duplicate_replacement', FunctionTransformer(replace_duplicate))
             scaler_step = ('scaler' , StandardScaler())
 
             preprocessor = Pipeline(
